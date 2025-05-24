@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea 6 · El tiempo con Weather API</title>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="content">
+        <h1>Consulta del tiempo</h1>
+
+        <div id="controles">
+            <input type="text" id="localidad" placeholder="Ciudad, País  (ej. Granada ,ES)" size="30">
+            <button id="btnHoy">Tiempo actual</button>
+            <button id="btn3dias">Próximos 3 días</button>
+            <button id="btnMiPos">Mi posición</button>
+        </div>
+        <div id="resultado"></div>    <!-- mapa -->
+        <iframe id="mapa" loading="lazy"></iframe>
+    </main>
+
+<footer class="footer-content">
+    <div class="image-credits">
+        <p>Imagen de fondo: "green field and big white clouds, summer sunset" por Art-Family © Envato Elements (Item ID: RYCM36P)</p>
+    </div>
+    <div class="author-info">
+        <p class="author-name">Pablo Cabello Hurtado</p>
+        <p class="author-title">Desarrollador web y Arquitecto Técnico</p>
+    </div>
+</footer>
+
+</body>
+</html>
